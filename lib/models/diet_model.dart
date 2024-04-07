@@ -28,7 +28,7 @@ class DietModel {
       level: 'Intermediate',
       duration: '30 Days',
       calorie: '1200 Kcal',
-      viewIsSelected: false,
+      viewIsSelected: true,
       boxColor: Color(0xffC58BF2),
     ));
 
@@ -38,7 +38,7 @@ class DietModel {
       level: 'Beginner',
       duration: '15 Days',
       calorie: '1000 Kcal',
-      viewIsSelected: false,
+      // viewIsSelected: false,
       boxColor: Color(0XFF92A3FD),
       ));
 
@@ -48,7 +48,7 @@ class DietModel {
       level: 'Advanced',
       duration: '45 Days',
       calorie: '1500 Kcal',
-      viewIsSelected: false,
+      // viewIsSelected: false,
       boxColor: Color(0xffC58BF2),
     ));
 
@@ -58,7 +58,7 @@ class DietModel {
       level: 'Intermediate',
       duration: '30 Days',
       calorie: '1200 Kcal',
-      viewIsSelected: false,
+      // viewIsSelected: false,
       boxColor: Color(0XFF92A3FD),
     ));
 
