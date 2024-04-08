@@ -4,16 +4,19 @@ import 'package:flutter_svg/svg.dart';
 
 import 'package:fitness/models/diet_model.dart';
 import 'package:fitness/models/category_model.dart';
+import 'package:fitness/models/popular_model.dart';  
 
 class HomePage extends StatelessWidget {
   HomePage({super.key});
 
   final List<CategoryModel> categories = [];
   final List<DietModel> diets = [];
+  final List<PopularDietsModel> popularDiets = [];
 
   void _getInitialInfo() {
     categories.addAll(CategoryModel.getCategories());
     diets.addAll(DietModel.getDiets());
+    popularDiets.addAll(PopularDietsModel.getPopularDiets());
   }
 
   void initState() {
